@@ -1,10 +1,10 @@
 Compile: make
 Run: ./newsh < testfile.txt
 
-Program Description: The program acts as a shell (called newsh) which can quit, get rid of comments (%), run foreground and background commands, cd to a different directory, change prompt, set variable and replace them, and display background processes.
+Program Description: The program acts as a shell (called newsh) which can quit, get rid of comments (%), run foreground and background commands, cd to different directories, change the prompt, set variables and replace them, and display background processes.
 
 Limitations:
 1. After not using C++ for awhile, one of the biggest limitations was time and myself. This means my program is probably not as efficient as it would be if I spent significantly more time on the project or had significantly more knowledge in C++.
 2. The program can only do the above commands.
 3. Background processes do not fork their own child processes.
-4. Does not compile with .o
+4. Does not compile with .o (easy fix)
